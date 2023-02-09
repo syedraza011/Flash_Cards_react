@@ -1,0 +1,21 @@
+.card {
+  height: 350px;
+  width: 250px;
+  border-radius: 8px;
+  border: solid 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+}
+.card .front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=cards.css.map */

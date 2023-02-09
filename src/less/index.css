@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+.cardPage,
+.adminPage {
+  box-sizing: border-box;
+  padding: 90px 10px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav {
+  height: 80px;
+  box-sizing: border-box;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.card {
+  height: 350px;
+  width: 250px;
+  border-radius: 8px;
+  border: solid 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+}
+.card .front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.adminPage {
+  flex-direction: column;
+}
+.adminPage .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adminPage .submit {
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
